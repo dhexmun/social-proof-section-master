@@ -1,0 +1,74 @@
+body {
+    font-family: league spartan;
+    font-size: 15px;
+}
+
+#face {
+    border-radius: 50%;
+    height: 50px;
+    max-width: 100%;
+}
+
+.roof {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment > div:nth-child(2){transform: translateY(10%);}
+.comment > div:nth-child(3){transform: translateY(20%);}
+
+#c1 {
+    background-color: hsl(300, 43%, 22%);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#c2 {
+    background-color: hsl(300, 43%, 22%);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#c3 {
+    background-color: hsl(300, 43%, 22%);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #sub {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .star {
+    background-size: 2px;
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px;
+  }
+
+  #rate {
+    color: hsl(300, 43%, 22%);
+  }
+
+  .watch {
+    justify-content: space-around;
+  }
+
+  .house {
+    display: flex;
+    flex-direction: row;
+  }
