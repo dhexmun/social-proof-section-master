@@ -12,15 +12,20 @@ body {
 .roof {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .comment {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .comment > div:nth-child(2){transform: translateY(10%);}
 .comment > div:nth-child(3){transform: translateY(20%);}
+
+.house > div:nth-child(3){transform: translateX(10%)}
+.house > div:nth-child(5){transform: translateX(20%);}
 
 #c1 {
     background-color: hsl(300, 43%, 22%);
@@ -64,11 +69,13 @@ body {
     color: hsl(300, 43%, 22%);
   }
 
-  .watch {
-    justify-content: space-around;
-  }
-
   .house {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: 20px;
+  }
+
+  .attribution {
+    text-align: center;
   }
